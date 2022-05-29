@@ -1,0 +1,51 @@
+
+body {
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+}
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px;
+    border-style: solid;
+    background-color: green;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+}
+img {
+    object-fit: cover;
+
+}
+.change {
+    margin-top: 1%;
+}
+a {
+    color: black;
+    margin-left: 5%;
+    margin-top: 3%;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover {
+    color: gray;
+}
+.nästaMatch {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.cont {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 7%;
+}
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+    margin: 20px;
+}
